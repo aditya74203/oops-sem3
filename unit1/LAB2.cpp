@@ -1,0 +1,28 @@
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main() {
+//     vector<int> numbers = {10, 20, 30, 40, 50};
+
+//     for (auto x : numbers) {
+//         cout << x << " ";
+//     }
+
+//     return 0;
+// }
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int sum = 0;
+
+    for (int x : arr) {
+        sum += x;
+    }
+
+    cout << "Sum = " << sum;
+
+    return 0;
+}
